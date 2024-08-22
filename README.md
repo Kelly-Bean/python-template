@@ -2,10 +2,10 @@
 
 - Run `create_from_template.sh` from the python-template/ root dir
 ```
-> bash create_from_template.sh . ../your-repo-name
+> bash create_from_template.sh . ../python-template
 ```
 
-- `cd ../your-repo-name`
+- `cd ../python-template`
 
 - Create/activate python virtualenv:
 conda:
@@ -22,18 +22,18 @@ conda:
 
 
 - Git
-Use github CLI or web UI to create the repository, `your-repo-name` in `your-org`
+Use github CLI or web UI to create the repository, `python-template` in `your-org`
 
 ```
-gh repo create your-org/your-repo-name --private
+gh repo create your-org/python-template --private
 ```
 
 ```
-echo "# your-repo-name" >> README.md
+echo "# python-template" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/your-org/your-repo-name.git
+git remote add origin https://github.com/your-org/python-template.git
 git push -u origin main
 ```
