@@ -8,11 +8,15 @@
 - `cd ../python-template`
 
 - Create/activate python virtualenv:
-conda:
 ```
-> conda create python=3.11 -n python-template-env
-> conda activate python-template-env
+# Install pyenv-virtualenv if needed
+> brew install pyenv-virtualenv
+
+# Create/set env, install dependencies
+> pyenv virtualenv 3.10.6 python-template-env
+> pyenv local python-template-env
 ```
+
 
 - Install requirements, make sure it's working
 ```
@@ -21,7 +25,7 @@ conda:
 ```
 
 
-- Git
+- Adding to github
 Use github CLI or web UI to create the repository, `python-template` in `your-org`
 
 ```
