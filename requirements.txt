@@ -1,3 +1,23 @@
+# Dev
 --editable .
 pytest
 black
+
+# Domain
+pandas
+numpy
+matplotlib
+featexp
+jupyterlab
+tqdm
+scikit-learn
+xgboost
+plotly
+shap
+ta
+google-cloud-storage
+
+# If needed:
+# bskb-trading @ git+https://github.com/bskb-trading/bskb-trading.git@feature/5min-cycle-strategy
+# historical-data-service-client-python @ git+https://github.com/bskb-trading/historical-data-service-client-python.git
+
